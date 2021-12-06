@@ -70,8 +70,6 @@ public class Neuron{
 
             index++;
         }
-        Console.WriteLine(w1);
-        Console.WriteLine(w2);
         
         return Convert.ToDouble(trueRes) / 8;
     }
